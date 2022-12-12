@@ -1,6 +1,6 @@
 {
   "name": "evm-ext-wallets",
-  "version": "0.0.1-a",
+  "version": "0.0.1-a1",
   "description": "Wallets for evm-ext",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
