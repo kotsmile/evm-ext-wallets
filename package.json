@@ -1,0 +1,52 @@
+{
+  "name": "evm-ext-wallets",
+  "version": "0.0.1",
+  "description": "Wallets for evm-ext",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotsmile/evm-ext-wallets.git"
+  },
+  "bin": {
+    "evm-ext": "lib/bin/index.js"
+  },
+  "keywords": [
+    "js",
+    "ts",
+    "dapp",
+    "evm",
+    "blockchain",
+    "smartcontracts",
+    "ethers"
+  ],
+  "author": "kotsmile",
+  "scripts": {
+    "dev": "tsc -w",
+    "type": "tsc --noEmit",
+    "build": "rm -rf ./lib && tsc",
+    "format": "prettier --write \"./src/**/*.{js,ts,jsx,tsx,vue}\"",
+    "lint": "prettier --check \"./src/**/*.{js,ts,jsx,tsx,vue}\"",
+    "prepare": "yarn type && yarn lint && yarn build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^3.6.2",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "ethers": "5.5.3",
+    "evm-ext": "^0.0.17-ab"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.13",
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "prettier": "2.8.1",
+    "ts-mocha": "^10.0.0",
+    "typescript": "4.9.4"
+  }
+}
