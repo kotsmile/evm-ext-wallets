@@ -2024,10 +2024,10 @@ events@^3.0.0:
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
   integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
 
-evm-ext@^0.0.17-ab:
-  version "0.0.17-ab"
-  resolved "https://registry.yarnpkg.com/evm-ext/-/evm-ext-0.0.17-ab.tgz#183ce249530b52200cdbcd8b47a822415f4bc0e6"
-  integrity sha512-gyKOQ53iPqNfHs1hdbECaAlUQ3aDyabaBIVwb2CZTd4bqFRfTqjddaJTIqYO3IYOks8gYH1m7KjdizgM2XjfGA==
+evm-ext@^0.0.17-a1:
+  version "0.0.17-a1"
+  resolved "https://registry.yarnpkg.com/evm-ext/-/evm-ext-0.0.17-a1.tgz#b133f7a266635239d67b405f2684ae79a65ce87f"
+  integrity sha512-LVHikhqmHzsMYyz7tBrBIc41sgh39wEpWNjQXwM3ntiPVJy/jw3hC6tBc8gUZBEm/Nwucw1ozXTNNmkz/YOevw==
   dependencies:
     "@coinbase/wallet-sdk" "^3.6.2"
     "@walletconnect/web3-provider" "^1.8.0"
