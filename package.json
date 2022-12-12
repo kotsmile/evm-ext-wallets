@@ -37,7 +37,7 @@
     "@coinbase/wallet-sdk": "^3.6.2",
     "@walletconnect/web3-provider": "^1.8.0",
     "ethers": "5.5.3",
-    "evm-ext": "^0.0.17-a3"
+    "evm-ext": "^0.0.17-a4"
   },
   "devDependencies": {
     "@types/chai": "^4.3.4",

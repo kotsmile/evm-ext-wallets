@@ -2024,10 +2024,10 @@ events@^3.0.0:
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
   integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
 
-evm-ext@^0.0.17-a3:
-  version "0.0.17-a3"
-  resolved "https://registry.yarnpkg.com/evm-ext/-/evm-ext-0.0.17-a3.tgz#ce7fbf75fb22a3d6e2e6c0b2974b55ccfd898368"
-  integrity sha512-tjNOxmbD9fPp4jvGZkYXE7OQ8e/mvVbzEum+lbRLbDu226O6Ske+jwC/Du6odHqm2NaNl6nIl93iAy8v/zZC5g==
+evm-ext@^0.0.17-a4:
+  version "0.0.17-a4"
+  resolved "https://registry.yarnpkg.com/evm-ext/-/evm-ext-0.0.17-a4.tgz#76bd97539000d65752e10d5633b3c3b91b389303"
+  integrity sha512-hFhqDJbHWseDW6MgkmBDCX4wsbMp0SjKYFfMRumBWGtNj39eVbs1xqgUFv7R/sX+hVGnqWtDYP2GQLM+pWsy/w==
   dependencies:
     chalk "4.1.2"
     commander "^9.2.0"
